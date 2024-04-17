@@ -25,6 +25,7 @@
                 todos.forEach(todo => {
                     document.getElementById('todos').innerHTML += `<div class="todo" style="display: flex; gap: 1rem; align-items: center; padding: 1rem; border: 2px solid var(--grey); border-radius: 0.5rem;"><input type="checkbox" style="width: 1rem; height: 1rem;"><p style="margin: 0;">${todo}</p></div>`;
                 });
+                document.getElementById('tutorial').style.display = 'none';
             }
         });
         window.onload = () => {
