@@ -146,3 +146,6 @@ input[type="text"]:focus + p{
 .labeled-input{
     color: var(--darker-grey);
 }
+h3{
+    font-weight: 300; font-size: 1rem;
+}
